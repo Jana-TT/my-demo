@@ -10,4 +10,5 @@ async def read_root():
 
 @app.get("/greeting/{greetings}")
 async def read_item(greetings: str):
-    return {"Wowie,": greetings}
+    return {"Wowie,": greetings} 
+
